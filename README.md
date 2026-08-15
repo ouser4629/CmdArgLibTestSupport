@@ -1,6 +1,6 @@
 
 <!-- 
-//  Copyright (c) 2025-2026 Psummerland2 LLC.
+//  Copyright (c) 2025-2026 Peter Buenafuente Summerland.
 //  All rights reserved.
 //
 //  This Source Code Form is subject to the terms of the Mozilla Public
@@ -10,7 +10,7 @@
 
 ## CmdArgLibTestSupport
 
-CmdArgLibTestSupport is part of the [Command Argument Library](https://github.com/psummerland2/cmd-arg-lib.git). 
+CmdArgLibTestSupport is part of the [Command Argument Library](https://github.com/ouser4629/cmd-arg-lib.git). 
 
 It provides functions for invoking commands with command-line input and comparing their output with expected output.
 
@@ -249,9 +249,9 @@ struct RunSuite {
 
 ## Example
 
-[Command Argument Library](https://github.com/psummerland2/cmd-arg-lib.git) has an
+[Command Argument Library](https://github.com/ouser4629/cmd-arg-lib.git) has an
 example, `Ex03_Run`, that shows the use of this module, along with various uses
-of [`Exception`](https://github.com/psummerland2/cmd-arg-lib/blob/main/REFERENCE.md#exception).
+of [`Exception`](https://github.com/ouser4629/cmd-arg-lib/blob/main/REFERENCE.md#exception).
 
 ---
 
