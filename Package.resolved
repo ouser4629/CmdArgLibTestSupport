@@ -1,0 +1,42 @@
+{
+  "originHash" : "11ffafe7fbbb802433db09d6b6d1a2389c612dd2ce28476f6032e5226a9b537c",
+  "pins" : [
+    {
+      "identity" : "cmdarglibcore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ouser4629/CmdArgLibCore.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "fdc959f1d30d49dfe37f4af9d14fbddc711dc245"
+      }
+    },
+    {
+      "identity" : "cmdarglibhelpscreen",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ouser4629/CmdArgLibHelpScreen.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f625ff43834c958cea89ba1484163475b0324507"
+      }
+    },
+    {
+      "identity" : "cmdarglibmacros",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ouser4629/CmdArgLibMacros.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "156fe5a54d64fbf398e4a321e1c3b656b8bc4f2b"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-syntax.git",
+      "state" : {
+        "revision" : "4799286537280063c85a32f09884cfbca301b1a1",
+        "version" : "602.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
