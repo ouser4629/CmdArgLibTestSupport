@@ -7,7 +7,7 @@
       "location" : "https://github.com/ouser4629/CmdArgLibCore.git",
       "state" : {
         "branch" : "main",
-        "revision" : "fdc959f1d30d49dfe37f4af9d14fbddc711dc245"
+        "revision" : "4cf3878d78e8f9ad2a62704d3535dd47cf3166d3"
       }
     },
     {
@@ -16,7 +16,7 @@
       "location" : "https://github.com/ouser4629/CmdArgLibHelpScreen.git",
       "state" : {
         "branch" : "main",
-        "revision" : "f625ff43834c958cea89ba1484163475b0324507"
+        "revision" : "90c41642a43bf0cf79a81acb74cfee4e65940baf"
       }
     },
     {
@@ -25,7 +25,7 @@
       "location" : "https://github.com/ouser4629/CmdArgLibMacros.git",
       "state" : {
         "branch" : "main",
-        "revision" : "156fe5a54d64fbf398e4a321e1c3b656b8bc4f2b"
+        "revision" : "4f0ddabc32fec22c351033fa8b9f19d2cb7ebe66"
       }
     },
     {

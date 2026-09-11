@@ -141,7 +141,7 @@ public func testReturn<T>(
 
 // MARK: - Helpers
 
-let mismatchEnd = #"------ END MISMATCH --- "+" and "-" indicate changes to expected to match actual"#
+let mismatchEnd = #"------ END MISMATCH --- ("+" and "-" indicate changes to expected to match actual)"#
 
 private func checkMatch(got: String, expected: String, file: String, line: UInt) -> Bool
 {

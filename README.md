@@ -155,7 +155,7 @@ imposes a termial width of 80 for line wrapping instead of the actual terminal w
 - NOTES
     The -l and -u flags shadow each other. The last one specified takes
     precedence.
------- END MISMATCH --- "+" and "-" indicate changes to expected to match actual
+------ END MISMATCH --- ("+" and "-" indicate changes to expected to match actual)
 ```
 
 </details>
