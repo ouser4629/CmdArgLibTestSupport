@@ -8,7 +8,7 @@ let package = Package(
     platforms: [.macOS(.v12)],
     products: [
         .library( name: "CmdArgLibTestSupport", targets: ["CmdArgLibTestSupport"] ),
-        .executable( name: "print-m", targets: ["PrintM"] ),
+        .executable( name: "test-print-m", targets: ["PrintM"] ),
     ],
     dependencies: [
         .package(url: "https://github.com/ouser4629/CmdArgLibCore.git", branch: "main"),
