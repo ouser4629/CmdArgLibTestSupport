@@ -22,7 +22,7 @@ struct HelpSuite {
               Print a phrase multiple times.
 
             USAGE
-              print-m [-hlu] [--count <int>] <phrase>
+              test-print-m [-hlu] [--count <int>] <phrase>
 
             PARAMETERS
               -h/--help             Show help information.
@@ -49,7 +49,7 @@ struct HelpSuite {
               Print a phrase multiple times.
 
             USAGE
-              print-m [-hlu] [--count <int>] <phrase>
+              test-print-m [-hlu] [--count <int>] <phrase>
 
             PARAMETERS
               -h/--help             Show help info.

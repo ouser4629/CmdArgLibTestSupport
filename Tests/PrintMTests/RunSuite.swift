@@ -56,7 +56,7 @@ struct RunBadArgsSuite {
        let expected = """
            Error:
              missing value: "<phrase>"
-           See "print-m --help" for more information.
+           See "test-print-m --help" for more information.
            """
         let ok = testOutput(of: PrintMSource.run, with: input, expecting: expected)
         #expect(ok)
@@ -70,7 +70,7 @@ struct RunBadArgsSuite {
            Errors:
              unrecognized options: "-U", "-L" and "-x", in "-ULux"
              "2.1" is not a valid <int> after --count
-           See "print-m --help" for more information.
+           See "test-print-m --help" for more information.
            """
         let ok = testOutput(of: PrintMSource.run, with: input, expecting: expected)
         #expect(ok)

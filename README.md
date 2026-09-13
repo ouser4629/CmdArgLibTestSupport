@@ -18,7 +18,7 @@ It provides functions for invoking commands with command-line input and comparin
 
 ## Sample
 
-This sample, `print-m`, simply prints phrases. The complete implementaion, including tests, is included in this repository.
+This sample, `test-print-m`, simply prints phrases. The complete implementaion, including tests, is included in this repository.
 
 <details>
 
@@ -59,12 +59,12 @@ program to produce output by throwing an Exception rather than calling print.
 <summary>Help Screen</summary>
 
 ```
-> print-m --help
+> test-print-m --help
 DESCRIPTION
   Print a phrase multiple times.
 
 USAGE
-  print-m [-hlu] [--count <int>] <phrase>
+  test-print-m [-hlu] [--count <int>] <phrase>
 
 PARAMETERS
   -h/--help             Show help information.
@@ -104,7 +104,7 @@ struct HelpSuite {
               Print a phrase multiple times.
 
             USAGE
-              print-m [-hlu] [--count <int>] <phrase>
+              test-print-m [-hlu] [--count <int>] <phrase>
 
             PARAMETERS
               -h/--help             Show help info.
@@ -140,7 +140,7 @@ imposes a termial width of 80 for line wrapping instead of the actual terminal w
     Print a phrase multiple times.
   
   USAGE
-    print-m [-hlu] [--count <int>] <phrase>
+    test-print-m [-hlu] [--count <int>] <phrase>
   
   PARAMETERS
 +   -h/--help             Show help information.
@@ -174,18 +174,18 @@ as test input and expected output.
 <summary>Command Calls</summary>
 
 ```
-> print-m "Simplicity is complexity resolved."
+> test-print-m "Simplicity is complexity resolved."
 Simplicity is complexity resolved.
 
-> print-m "Well done is better than well said." -lu --count 2
+> test-print-m "Well done is better than well said." -lu --count 2
 WELL DONE IS BETTER THAN WELL SAID.
 WELL DONE IS BETTER THAN WELL SAID.
 
-> print-m -ULux "Oops" --count 2.1 
+> test-print-m -ULux "Oops" --count 2.1 
 Errors:
   unrecognized options: "-U", "-L" and "-x", in "-ULux"
   "2.1" is not a valid <int> after --count
-See "print-m --help" for more information.
+See "test-print-m --help" for more information.
 
 ```
 </details>
@@ -235,7 +235,7 @@ struct RunSuite {
            Errors:
              unrecognized options: "-U", "-L" and "-x", in "-ULux"
              "2.1" is not a valid <int> after --count
-           See "print-m --help" for more information.
+           See "test-print-m --help" for more information.
            """
         let ok = testOutput(of: PrintMSource.run, with: input, expecting: expected)
         #expect(ok)
@@ -250,7 +250,7 @@ struct RunSuite {
 ## Example
 
 [Command Argument Library](https://github.com/ouser4629/cmd-arg-lib.git) has an
-example, `Ex03_Run`, that shows the use of this module, along with various uses
+example, `Run`, that shows the use of this module, along with various uses
 of [`Exception`](https://github.com/ouser4629/cmd-arg-lib/blob/main/REFERENCE.md#exception).
 
 ---
