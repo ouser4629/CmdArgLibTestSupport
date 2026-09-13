@@ -29,7 +29,7 @@ public struct PrintMSource {
     public typealias Phrase = String
 
     @MainFunctionMacro(shadowGroups: ["u l"])
-    public static func PrintM(
+    public static func testPrintM(
         h__help help: MetaFlag = MetaFlag(helpElements: helpLayout),
         l: Flag,
         u: Flag,
